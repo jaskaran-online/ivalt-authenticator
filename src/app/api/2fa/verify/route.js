@@ -1,7 +1,7 @@
 import speakeasy from "speakeasy";
 
 
-export async function POST(req, res) {
+export async function POST(req) {
 
     const { secret, token } = await req.json();
 
